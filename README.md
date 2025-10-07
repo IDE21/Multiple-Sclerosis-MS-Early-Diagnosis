@@ -159,8 +159,8 @@ Feel free to open an issue or pull request anytime.
 
 ## 📧 Contact
 
-**Author:** Enad (Saleh) Alrougi
+**Author:** Enad Alrougi
 **Role:** Data Scientist & AI Researcher
-**Email:** [your.email@example.com](mailto:enadrouq@outlook.com)
-**LinkedIn:** [linkedin.com/in/enadalrougi](https://linkedin.com/in/enadalrougi)
+**Email:** [enadrouq@outlook.com](mailto:enadrouq@outlook.com)
+**LinkedIn:** [https://www.linkedin.com/in/enad-alrougi-5b0a45253/](https://linkedin.com/in/enadalrougi)
 **GitHub:** [github.com/IDE21](https://github.com/IDE21)
