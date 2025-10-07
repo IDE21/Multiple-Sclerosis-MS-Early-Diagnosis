@@ -168,8 +168,8 @@ Feel free to open an issue or pull request anytime.
 
 ---
 
-**LinkedIn:** [https://www.linkedin.com/in/enad-alrougi-5b0a45253/](https://linkedin.com/in/enadalrougi)
+**LinkedIn:** [enad-alrougi](https://www.linkedin.com/in/enad-alrougi-5b0a45253/)
 
 ---
 
-**GitHub:** [github.com/IDE21](https://github.com/IDE21)
+**GitHub:** [IDE21](https://github.com/IDE21)
