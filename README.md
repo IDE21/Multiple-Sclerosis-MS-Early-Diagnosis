@@ -168,7 +168,7 @@ Feel free to open an issue or pull request anytime.
 
 ---
 
-**LinkedIn:** [enad-alrougi](https://www.linkedin.com/in/enad-alrougi-5b0a45253/)
+**LinkedIn:** [Enad-Alrougi](https://www.linkedin.com/in/enad-alrougi-5b0a45253/)
 
 ---
 
