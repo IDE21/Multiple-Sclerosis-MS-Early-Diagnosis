@@ -2,7 +2,6 @@
 
 This project explores how deep learning can help in the **early detection of Multiple Sclerosis (MS)** from brain MRI scans.
 I’ve built and trained AI models to classify neurological disorders using the **Multi-Class Neurological Disorder (MCND)** dataset from Kaggle.
-The main goal is to make early MS diagnosis faster, more reliable, and easier to interpret for clinical use.
 
 ---
 
@@ -11,7 +10,7 @@ The main goal is to make early MS diagnosis faster, more reliable, and easier to
 Multiple Sclerosis is a complex neurological condition that affects the brain and spinal cord. Detecting it early can make a huge difference in treatment outcomes.
 In this project, I used **MRI brain images** and **deep learning models** to distinguish MS from other neurological disorders like Alzheimer’s and Parkinson’s disease — as well as from healthy brains.
 
-I experimented with different CNN architectures (including EfficientNet and ResNet), fine-tuned the learning rate, and added explainability tools like **Grad-CAM** and **SHAP** to visualize what parts of the brain the model focuses on during prediction.
+I experimented with different CNN architectures (including EfficientNet and ResNet), fine-tuned the learning rate.
 
 ---
 
@@ -21,10 +20,14 @@ I experimented with different CNN architectures (including EfficientNet and ResN
 * **Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/alifatahi/multi-class-neurological-disorder-mcnd-dataset?select=AD_MildDemented)
 * **Classes included:**
 
-  * Multiple Sclerosis (MS)
-  * Alzheimer’s Disease (Mild Demented)
-  * Parkinson’s Disease (PD)
-  * Normal / Healthy Controls
+AD_MildDemented
+AD_ModerateDemented
+AD_VeryMildDemented
+BT_glioma
+BT_meningioma
+BT_pituitary
+MS
+Normal
 
 The dataset contains brain MRI slices grouped into folders by diagnosis. Each image is labeled and preprocessed, making it ready for direct use in training.
 
@@ -91,13 +94,6 @@ The learning rate scheduler also helped the model converge smoothly.
 I evaluated the model using:
 
 * **Confusion Matrix**
-* **Precision / Recall / F1-Score**
-* **ROC-AUC Curves**
-
-For interpretability, I used:
-
-* **Grad-CAM** → to visualize important brain regions influencing the decision
-* **SHAP values** → to understand the global contribution of each pixel or region
 
 These tools help verify that the model is focusing on medically meaningful areas, not random noise.
 
@@ -129,7 +125,6 @@ The notebook automatically generates:
 
 * Accuracy and loss curves
 * Learning rate schedule
-* Grad-CAM heatmaps for each class
 
 You’ll find all output visuals in the `/results/` folder.
 
@@ -143,7 +138,6 @@ You’ll find all output visuals in the `/results/` folder.
 * OpenCV
 * Matplotlib, Seaborn
 * scikit-learn
-* SHAP / LIME
 
 ---
 
